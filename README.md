@@ -42,7 +42,7 @@ Allocate Host Memory
 !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
 %load_ext nvcc4jupyter
 ```
-# WITH MEMSET
+WITH MEMSET:
 ```
 %%cuda
 #include <stdio.h>
@@ -278,7 +278,7 @@ int main(int argc, char **argv)
     return (0);
 }
 ```
-# WITHOUT MEMSET
+WITHOUT MEMSET:
 ```
 %%cuda
 #include <stdio.h>
